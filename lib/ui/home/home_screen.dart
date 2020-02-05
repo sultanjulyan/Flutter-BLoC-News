@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_news_app/src/bloc/home_bloc.dart';
-import 'package:flutter_news_app/src/ui/home/category_news.dart';
-import 'package:flutter_news_app/src/ui/home/title_news.dart';
+import 'package:flutter_news_app/bloc/home_bloc.dart';
+import 'package:flutter_news_app/ui/home/category_news.dart';
+import 'package:flutter_news_app/ui/home/title_news.dart';
 import 'package:intl/intl.dart';
 
 import 'lastest_news.dart';

@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_news_app/src/bloc/home_bloc.dart';
-import 'package:flutter_news_app/src/bloc/home_event.dart';
-import 'package:flutter_news_app/src/model/category/category.dart';
+import 'package:flutter_news_app/bloc/home_bloc.dart';
+import 'package:flutter_news_app/bloc/home_event.dart';
+import 'package:flutter_news_app/model/category/category.dart';
 
 class WidgetCategory extends StatefulWidget {
   @override

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_news_app/src/service/api_repository.dart';
-import 'package:flutter_news_app/src/bloc/home_event.dart';
-import 'package:flutter_news_app/src/bloc/home_state.dart';
+import 'package:flutter_news_app/service/api_repository.dart';
+import 'package:flutter_news_app/bloc/home_event.dart';
+import 'package:flutter_news_app/bloc/home_state.dart';
 
 class HomeBloc extends Bloc<DataEvent, DataState> {
   @override
